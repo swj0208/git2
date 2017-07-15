@@ -5,7 +5,7 @@
 <body>
 <form id="loginForm" action="login.action" method="post">
 	<input type="hidden" name="op" value="login"/>
-	用户名：<input type="text" name="name" id="name"/>a<br/>
+	用户名haha：<input type="text" name="name" id="name"/>a<br/>
 	密码：<input type="password" name="pwd" id="pwd"/>a<br/>
 	<input type="submit" value="登陆"/>
 </form>
