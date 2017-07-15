@@ -4,4 +4,13 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  
+  <filter>
+  	<filter-name>ch</filter-name>
+  	<filter-class>com.yc.web.filters.CharacterFilter</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>ch</filter-name>
+  	<url-pattern>*.action</url-pattern>
+  </filter-mapping>
 </web-app>
